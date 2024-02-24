@@ -1,11 +1,11 @@
-name: first pipline
+name: first-pipline
 
 on:
   push
 
 jobs:
   echo_hello:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps: 
       - name: Run echo
         run: echo "Hello world"
